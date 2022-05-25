@@ -22,10 +22,10 @@ class test{
 //クラス
 //testクラスをインスタンス化して呼び出す
 //testのインスタンスを変数（＄）に代入する
-$curry= new test();
+$curry= new test(3);
 $curry->name="haruya";
 //プロパティへのアクセス
-$menu=new test;
+$menu=new test(3);
 //変数menuにtestクラスのインスタンスを代入
 $menu->name ="macd";
 //インスタンス->プロパティ名　でプロパティにアクセスする
